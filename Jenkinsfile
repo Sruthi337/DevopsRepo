@@ -13,6 +13,7 @@ pipeline {
                 git 'https://github.com/Sruthi337/DevopsRepo.git'
 
                 sh "mvn -Dmaven.test.failure.ignore=true clean package"
+                
             }
 
             post {
